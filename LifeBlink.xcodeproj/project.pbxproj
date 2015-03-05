@@ -22,6 +22,19 @@
 		C51CD6CD1AA7ABFB006893B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C51CD6CB1AA7ABFB006893B2 /* LaunchScreen.xib */; };
 		C51CD6E71AA7D198006893B2 /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = C51CD6E61AA7D198006893B2 /* PodFile */; };
 		C51CD6EB1AA83FB6006893B2 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51CD6EA1AA83FB6006893B2 /* ProfileViewController.m */; };
+		C51CD7041AA87E84006893B2 /* followerPic2.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD6FF1AA87E84006893B2 /* followerPic2.png */; };
+		C51CD7051AA87E84006893B2 /* followerPic1.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD7001AA87E84006893B2 /* followerPic1.png */; };
+		C51CD7061AA87E84006893B2 /* FamilyPic.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD7011AA87E84006893B2 /* FamilyPic.png */; };
+		C51CD7071AA87E84006893B2 /* BlinkPic.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD7021AA87E84006893B2 /* BlinkPic.png */; };
+		C51CD7081AA87E84006893B2 /* ProfilePic.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD7031AA87E84006893B2 /* ProfilePic.png */; };
+		C51CD70D1AA87E96006893B2 /* Facebook-24.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD7091AA87E96006893B2 /* Facebook-24.png */; };
+		C51CD70E1AA87E96006893B2 /* Twitter-24.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD70A1AA87E96006893B2 /* Twitter-24.png */; };
+		C51CD70F1AA87E96006893B2 /* Thumb Up-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD70B1AA87E96006893B2 /* Thumb Up-50.png */; };
+		C51CD7101AA87E96006893B2 /* Topic-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD70C1AA87E96006893B2 /* Topic-50.png */; };
+		C51CD71B1AA885A9006893B2 /* Comments-26.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD71A1AA885A9006893B2 /* Comments-26.png */; };
+		C51CD71D1AA88600006893B2 /* User Male3-25.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD71C1AA88600006893B2 /* User Male3-25.png */; };
+		C51CD7211AA88665006893B2 /* Home-26.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD7201AA88665006893B2 /* Home-26.png */; };
+		C51CD7231AA886C9006893B2 /* Screenshot-26.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD7221AA886C9006893B2 /* Screenshot-26.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +66,19 @@
 		C51CD6E61AA7D198006893B2 /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; };
 		C51CD6E91AA83FB6006893B2 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = ViewControllers/ProfileViewController.h; sourceTree = "<group>"; };
 		C51CD6EA1AA83FB6006893B2 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = ViewControllers/ProfileViewController.m; sourceTree = "<group>"; };
+		C51CD6FF1AA87E84006893B2 /* followerPic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = followerPic2.png; sourceTree = "<group>"; };
+		C51CD7001AA87E84006893B2 /* followerPic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = followerPic1.png; sourceTree = "<group>"; };
+		C51CD7011AA87E84006893B2 /* FamilyPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FamilyPic.png; sourceTree = "<group>"; };
+		C51CD7021AA87E84006893B2 /* BlinkPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlinkPic.png; sourceTree = "<group>"; };
+		C51CD7031AA87E84006893B2 /* ProfilePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProfilePic.png; sourceTree = "<group>"; };
+		C51CD7091AA87E96006893B2 /* Facebook-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facebook-24.png"; sourceTree = "<group>"; };
+		C51CD70A1AA87E96006893B2 /* Twitter-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twitter-24.png"; sourceTree = "<group>"; };
+		C51CD70B1AA87E96006893B2 /* Thumb Up-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Thumb Up-50.png"; sourceTree = "<group>"; };
+		C51CD70C1AA87E96006893B2 /* Topic-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Topic-50.png"; sourceTree = "<group>"; };
+		C51CD71A1AA885A9006893B2 /* Comments-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Comments-26.png"; sourceTree = "<group>"; };
+		C51CD71C1AA88600006893B2 /* User Male3-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User Male3-25.png"; sourceTree = "<group>"; };
+		C51CD7201AA88665006893B2 /* Home-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-26.png"; sourceTree = "<group>"; };
+		C51CD7221AA886C9006893B2 /* Screenshot-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot-26.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +146,19 @@
 			isa = PBXGroup;
 			children = (
 				68F049001AA878B100A0C4F0 /* Utilities */,
+				C51CD7091AA87E96006893B2 /* Facebook-24.png */,
+				C51CD70A1AA87E96006893B2 /* Twitter-24.png */,
+				C51CD70B1AA87E96006893B2 /* Thumb Up-50.png */,
+				C51CD70C1AA87E96006893B2 /* Topic-50.png */,
+				C51CD6FF1AA87E84006893B2 /* followerPic2.png */,
+				C51CD7001AA87E84006893B2 /* followerPic1.png */,
+				C51CD7011AA87E84006893B2 /* FamilyPic.png */,
+				C51CD7021AA87E84006893B2 /* BlinkPic.png */,
+				C51CD7031AA87E84006893B2 /* ProfilePic.png */,
+				C51CD71A1AA885A9006893B2 /* Comments-26.png */,
+				C51CD71C1AA88600006893B2 /* User Male3-25.png */,
+				C51CD7201AA88665006893B2 /* Home-26.png */,
+				C51CD7221AA886C9006893B2 /* Screenshot-26.png */,
 				C51CD6FE1AA86259006893B2 /* Search */,
 				C51CD6E81AA83F8A006893B2 /* Profile */,
 				C51CD6C01AA7ABFB006893B2 /* AppDelegate.h */,
@@ -226,10 +265,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				C51CD6E71AA7D198006893B2 /* PodFile in Resources */,
+				C51CD71B1AA885A9006893B2 /* Comments-26.png in Resources */,
+				C51CD7041AA87E84006893B2 /* followerPic2.png in Resources */,
+				C51CD70F1AA87E96006893B2 /* Thumb Up-50.png in Resources */,
+				C51CD7071AA87E84006893B2 /* BlinkPic.png in Resources */,
+				C51CD7051AA87E84006893B2 /* followerPic1.png in Resources */,
+				C51CD7081AA87E84006893B2 /* ProfilePic.png in Resources */,
+				C51CD7101AA87E96006893B2 /* Topic-50.png in Resources */,
 				68F048F91AA8648700A0C4F0 /* Images.xcassets in Resources */,
+				C51CD7231AA886C9006893B2 /* Screenshot-26.png in Resources */,
+				C51CD71D1AA88600006893B2 /* User Male3-25.png in Resources */,
 				C51CD6C81AA7ABFB006893B2 /* Main.storyboard in Resources */,
 				C51CD6CD1AA7ABFB006893B2 /* LaunchScreen.xib in Resources */,
+				C51CD7211AA88665006893B2 /* Home-26.png in Resources */,
+				C51CD70D1AA87E96006893B2 /* Facebook-24.png in Resources */,
+				C51CD7061AA87E84006893B2 /* FamilyPic.png in Resources */,
 				C51CD6CD1AA7ABFB006893B2 /* LaunchScreen.xib in Resources */,
+				C51CD70E1AA87E96006893B2 /* Twitter-24.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
