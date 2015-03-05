@@ -23,6 +23,8 @@
 		C51CD6F11AA849EF006893B2 /* FamilyPic.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD6F01AA849EF006893B2 /* FamilyPic.png */; };
 		C51CD6F41AA84B40006893B2 /* followerPic2.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD6F21AA84B40006893B2 /* followerPic2.png */; };
 		C51CD6F51AA84B40006893B2 /* followerPic1.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD6F31AA84B40006893B2 /* followerPic1.png */; };
+		C51CD6FB1AA85569006893B2 /* Facebook-24.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD6FA1AA85569006893B2 /* Facebook-24.png */; };
+		C51CD6FD1AA8556E006893B2 /* Twitter-24.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD6FC1AA8556E006893B2 /* Twitter-24.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		C51CD6F01AA849EF006893B2 /* FamilyPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FamilyPic.png; sourceTree = "<group>"; };
 		C51CD6F21AA84B40006893B2 /* followerPic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = followerPic2.png; sourceTree = "<group>"; };
 		C51CD6F31AA84B40006893B2 /* followerPic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = followerPic1.png; sourceTree = "<group>"; };
+		C51CD6FA1AA85569006893B2 /* Facebook-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facebook-24.png"; sourceTree = "<group>"; };
+		C51CD6FC1AA8556E006893B2 /* Twitter-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twitter-24.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 				C51CD6F01AA849EF006893B2 /* FamilyPic.png */,
 				C51CD6F21AA84B40006893B2 /* followerPic2.png */,
 				C51CD6F31AA84B40006893B2 /* followerPic1.png */,
+				C51CD6FA1AA85569006893B2 /* Facebook-24.png */,
+				C51CD6FC1AA8556E006893B2 /* Twitter-24.png */,
 				C51CD6CB1AA7ABFB006893B2 /* LaunchScreen.xib */,
 				C51CD6BC1AA7ABFB006893B2 /* Supporting Files */,
 			);
@@ -205,11 +211,13 @@
 				C51CD6EF1AA84655006893B2 /* BlinkPic.png in Resources */,
 				C51CD6C81AA7ABFB006893B2 /* Main.storyboard in Resources */,
 				C51CD6F51AA84B40006893B2 /* followerPic1.png in Resources */,
+				C51CD6FD1AA8556E006893B2 /* Twitter-24.png in Resources */,
 				C51CD6F11AA849EF006893B2 /* FamilyPic.png in Resources */,
 				C51CD6ED1AA84611006893B2 /* ProfilePic.png in Resources */,
 				C51CD6CD1AA7ABFB006893B2 /* LaunchScreen.xib in Resources */,
 				C51CD6CA1AA7ABFB006893B2 /* Images.xcassets in Resources */,
 				C51CD6F41AA84B40006893B2 /* followerPic2.png in Resources */,
+				C51CD6FB1AA85569006893B2 /* Facebook-24.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
