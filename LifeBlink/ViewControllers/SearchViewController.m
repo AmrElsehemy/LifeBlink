@@ -21,6 +21,7 @@
     // Do any additional setup after loading the view.
     
     self.searchBar = [[UISearchBar alloc] init];
+    self.searchBar.placeholder = @"Search";
     self.navigationItem.titleView = self.searchBar;
     self.searchBar.searchBarStyle = UISearchBarStyleMinimal;
 }
@@ -46,9 +47,10 @@
     return [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"header" forIndexPath:indexPath];
 }
 
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
     [self.searchBar resignFirstResponder];
 }
+
 
 /*
 #pragma mark - Navigation
