@@ -7,28 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68F048F91AA8648700A0C4F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F048F81AA8648700A0C4F0 /* Images.xcassets */; };
+		68F048FC1AA8668300A0C4F0 /* EditProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F048FB1AA8668300A0C4F0 /* EditProfileTableViewController.m */; };
 		C43A89B710FB9F8105232C39 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 104487D252A7C9F14CE7183B /* libPods.a */; };
 		C51CD6BF1AA7ABFB006893B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C51CD6BE1AA7ABFB006893B2 /* main.m */; };
 		C51CD6C21AA7ABFB006893B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C51CD6C11AA7ABFB006893B2 /* AppDelegate.m */; };
 		C51CD6C51AA7ABFB006893B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51CD6C41AA7ABFB006893B2 /* ViewController.m */; };
 		C51CD6C81AA7ABFB006893B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51CD6C61AA7ABFB006893B2 /* Main.storyboard */; };
-		C51CD6CA1AA7ABFB006893B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51CD6C91AA7ABFB006893B2 /* Images.xcassets */; };
 		C51CD6CD1AA7ABFB006893B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C51CD6CB1AA7ABFB006893B2 /* LaunchScreen.xib */; };
-		C51CD6E31AA7C103006893B2 /* Topic-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD6E21AA7C103006893B2 /* Topic-50.png */; };
-		C51CD6E51AA7C149006893B2 /* Thumb Up-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD6E41AA7C149006893B2 /* Thumb Up-50.png */; };
 		C51CD6E71AA7D198006893B2 /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = C51CD6E61AA7D198006893B2 /* PodFile */; };
 		C51CD6EB1AA83FB6006893B2 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51CD6EA1AA83FB6006893B2 /* ProfileViewController.m */; };
-		C51CD6ED1AA84611006893B2 /* ProfilePic.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD6EC1AA84611006893B2 /* ProfilePic.png */; };
-		C51CD6EF1AA84655006893B2 /* BlinkPic.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD6EE1AA84655006893B2 /* BlinkPic.png */; };
-		C51CD6F11AA849EF006893B2 /* FamilyPic.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD6F01AA849EF006893B2 /* FamilyPic.png */; };
-		C51CD6F41AA84B40006893B2 /* followerPic2.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD6F21AA84B40006893B2 /* followerPic2.png */; };
-		C51CD6F51AA84B40006893B2 /* followerPic1.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD6F31AA84B40006893B2 /* followerPic1.png */; };
-		C51CD6FB1AA85569006893B2 /* Facebook-24.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD6FA1AA85569006893B2 /* Facebook-24.png */; };
-		C51CD6FD1AA8556E006893B2 /* Twitter-24.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD6FC1AA8556E006893B2 /* Twitter-24.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		104487D252A7C9F14CE7183B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F048F81AA8648700A0C4F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		68F048FA1AA8668300A0C4F0 /* EditProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditProfileTableViewController.h; path = ViewControllers/EditProfileTableViewController.h; sourceTree = "<group>"; };
+		68F048FB1AA8668300A0C4F0 /* EditProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditProfileTableViewController.m; path = ViewControllers/EditProfileTableViewController.m; sourceTree = "<group>"; };
 		85E67337E8A86191C5BF2590 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C392A93FDA5E6A4EC5F63CD6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C51CD6B91AA7ABFB006893B2 /* LifeBlink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeBlink.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,20 +34,10 @@
 		C51CD6C31AA7ABFB006893B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C51CD6C41AA7ABFB006893B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C51CD6C71AA7ABFB006893B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C51CD6C91AA7ABFB006893B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C51CD6CC1AA7ABFB006893B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C51CD6E21AA7C103006893B2 /* Topic-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Topic-50.png"; sourceTree = "<group>"; };
-		C51CD6E41AA7C149006893B2 /* Thumb Up-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Thumb Up-50.png"; sourceTree = "<group>"; };
 		C51CD6E61AA7D198006893B2 /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; };
 		C51CD6E91AA83FB6006893B2 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = ViewControllers/ProfileViewController.h; sourceTree = "<group>"; };
 		C51CD6EA1AA83FB6006893B2 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = ViewControllers/ProfileViewController.m; sourceTree = "<group>"; };
-		C51CD6EC1AA84611006893B2 /* ProfilePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProfilePic.png; sourceTree = "<group>"; };
-		C51CD6EE1AA84655006893B2 /* BlinkPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlinkPic.png; sourceTree = "<group>"; };
-		C51CD6F01AA849EF006893B2 /* FamilyPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FamilyPic.png; sourceTree = "<group>"; };
-		C51CD6F21AA84B40006893B2 /* followerPic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = followerPic2.png; sourceTree = "<group>"; };
-		C51CD6F31AA84B40006893B2 /* followerPic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = followerPic1.png; sourceTree = "<group>"; };
-		C51CD6FA1AA85569006893B2 /* Facebook-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facebook-24.png"; sourceTree = "<group>"; };
-		C51CD6FC1AA8556E006893B2 /* Twitter-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twitter-24.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,17 +97,8 @@
 				C51CD6C31AA7ABFB006893B2 /* ViewController.h */,
 				C51CD6C41AA7ABFB006893B2 /* ViewController.m */,
 				C51CD6C61AA7ABFB006893B2 /* Main.storyboard */,
-				C51CD6C91AA7ABFB006893B2 /* Images.xcassets */,
-				C51CD6E21AA7C103006893B2 /* Topic-50.png */,
-				C51CD6E41AA7C149006893B2 /* Thumb Up-50.png */,
-				C51CD6EC1AA84611006893B2 /* ProfilePic.png */,
-				C51CD6EE1AA84655006893B2 /* BlinkPic.png */,
-				C51CD6F01AA849EF006893B2 /* FamilyPic.png */,
-				C51CD6F21AA84B40006893B2 /* followerPic2.png */,
-				C51CD6F31AA84B40006893B2 /* followerPic1.png */,
-				C51CD6FA1AA85569006893B2 /* Facebook-24.png */,
-				C51CD6FC1AA8556E006893B2 /* Twitter-24.png */,
 				C51CD6CB1AA7ABFB006893B2 /* LaunchScreen.xib */,
+				68F048F81AA8648700A0C4F0 /* Images.xcassets */,
 				C51CD6BC1AA7ABFB006893B2 /* Supporting Files */,
 			);
 			path = LifeBlink;
@@ -142,6 +118,8 @@
 			children = (
 				C51CD6E91AA83FB6006893B2 /* ProfileViewController.h */,
 				C51CD6EA1AA83FB6006893B2 /* ProfileViewController.m */,
+				68F048FA1AA8668300A0C4F0 /* EditProfileTableViewController.h */,
+				68F048FB1AA8668300A0C4F0 /* EditProfileTableViewController.m */,
 			);
 			name = Profile;
 			sourceTree = "<group>";
@@ -206,18 +184,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C51CD6E71AA7D198006893B2 /* PodFile in Resources */,
-				C51CD6E31AA7C103006893B2 /* Topic-50.png in Resources */,
-				C51CD6E51AA7C149006893B2 /* Thumb Up-50.png in Resources */,
-				C51CD6EF1AA84655006893B2 /* BlinkPic.png in Resources */,
+				68F048F91AA8648700A0C4F0 /* Images.xcassets in Resources */,
 				C51CD6C81AA7ABFB006893B2 /* Main.storyboard in Resources */,
-				C51CD6F51AA84B40006893B2 /* followerPic1.png in Resources */,
-				C51CD6FD1AA8556E006893B2 /* Twitter-24.png in Resources */,
-				C51CD6F11AA849EF006893B2 /* FamilyPic.png in Resources */,
-				C51CD6ED1AA84611006893B2 /* ProfilePic.png in Resources */,
 				C51CD6CD1AA7ABFB006893B2 /* LaunchScreen.xib in Resources */,
-				C51CD6CA1AA7ABFB006893B2 /* Images.xcassets in Resources */,
-				C51CD6F41AA84B40006893B2 /* followerPic2.png in Resources */,
-				C51CD6FB1AA85569006893B2 /* Facebook-24.png in Resources */,
+				C51CD6CD1AA7ABFB006893B2 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +235,7 @@
 				C51CD6C21AA7ABFB006893B2 /* AppDelegate.m in Sources */,
 				C51CD6EB1AA83FB6006893B2 /* ProfileViewController.m in Sources */,
 				C51CD6BF1AA7ABFB006893B2 /* main.m in Sources */,
+				68F048FC1AA8668300A0C4F0 /* EditProfileTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
