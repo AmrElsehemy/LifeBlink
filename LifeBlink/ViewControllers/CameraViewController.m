@@ -28,8 +28,7 @@
     
     self.captureButton.layer.cornerRadius = self.captureButton.width / 2.0f;
     self.captureButton.layer.borderColor = [UIColor whiteColor].CGColor;
-    self.captureButton.layer.borderWidth = 2.0f;
-    self.captureButton.backgroundColor = [[UIColor blueColor] colorWithAlphaComponent:0.5];
+    self.captureButton.layer.borderWidth = 3.0f;
     self.captureButton.layer.rasterizationScale = [UIScreen mainScreen].scale;
     self.captureButton.layer.shouldRasterize = YES;
     

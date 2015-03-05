@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		68B750C11AA88D5700ABDAC6 /* SearchFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B750C01AA88D5700ABDAC6 /* SearchFlowLayout.m */; };
 		68B750C31AA893FF00ABDAC6 /* search-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B750C21AA893FF00ABDAC6 /* search-32.png */; };
+		68B750C51AA8A1E500ABDAC6 /* albums.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B750C41AA8A1E500ABDAC6 /* albums.png */; };
 		68F048F91AA8648700A0C4F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F048F81AA8648700A0C4F0 /* Images.xcassets */; };
 		68F048FC1AA8668300A0C4F0 /* EditProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F048FB1AA8668300A0C4F0 /* EditProfileTableViewController.m */; };
 		68F048FF1AA8777C00A0C4F0 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F048FE1AA8777C00A0C4F0 /* CameraViewController.m */; };
@@ -45,6 +46,7 @@
 		68B750BF1AA88D5700ABDAC6 /* SearchFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchFlowLayout.h; sourceTree = "<group>"; };
 		68B750C01AA88D5700ABDAC6 /* SearchFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchFlowLayout.m; sourceTree = "<group>"; };
 		68B750C21AA893FF00ABDAC6 /* search-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search-32.png"; sourceTree = "<group>"; };
+		68B750C41AA8A1E500ABDAC6 /* albums.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = albums.png; sourceTree = "<group>"; };
 		68F048F81AA8648700A0C4F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		68F048FA1AA8668300A0C4F0 /* EditProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditProfileTableViewController.h; path = ViewControllers/EditProfileTableViewController.h; sourceTree = "<group>"; };
 		68F048FB1AA8668300A0C4F0 /* EditProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditProfileTableViewController.m; path = ViewControllers/EditProfileTableViewController.m; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				C51CD7021AA87E84006893B2 /* BlinkPic.png */,
 				C51CD7031AA87E84006893B2 /* ProfilePic.png */,
 				C51CD71A1AA885A9006893B2 /* Comments-26.png */,
+				68B750C41AA8A1E500ABDAC6 /* albums.png */,
 				C51CD71C1AA88600006893B2 /* User Male3-25.png */,
 				C51CD7201AA88665006893B2 /* Home-26.png */,
 				C51CD7221AA886C9006893B2 /* Screenshot-26.png */,
@@ -282,6 +285,7 @@
 				68B750C31AA893FF00ABDAC6 /* search-32.png in Resources */,
 				C51CD7041AA87E84006893B2 /* followerPic2.png in Resources */,
 				C51CD70F1AA87E96006893B2 /* Thumb Up-50.png in Resources */,
+				68B750C51AA8A1E500ABDAC6 /* albums.png in Resources */,
 				C51CD7071AA87E84006893B2 /* BlinkPic.png in Resources */,
 				C51CD7051AA87E84006893B2 /* followerPic1.png in Resources */,
 				C51CD7081AA87E84006893B2 /* ProfilePic.png in Resources */,

@@ -281,10 +281,12 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ne8-TR-O6d">
                                         <rect key="frame" x="152" y="40" width="70" height="70"/>
+                                        <color key="backgroundColor" red="0.15686274509803921" green="0.45490196078431372" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="Prh-gD-9EU"/>
                                             <constraint firstAttribute="width" constant="70" id="yQg-HF-IO5"/>
                                         </constraints>
+                                        <color key="tintColor" red="0.070588235289999995" green="0.30196078430000001" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -293,12 +295,14 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q7R-gk-Vi0">
-                                        <rect key="frame" x="20" y="58" width="59" height="34"/>
+                                        <rect key="frame" x="20" y="55" width="40" height="40"/>
                                         <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="EeJ-nQ-SIa"/>
                                             <constraint firstAttribute="height" constant="70" id="Mwx-qw-k5s"/>
+                                            <constraint firstAttribute="width" constant="40" id="eO4-jX-OUS"/>
                                             <constraint firstAttribute="width" constant="70" id="gWN-PJ-kCo"/>
                                         </constraints>
-                                        <state key="normal" title="albums">
+                                        <state key="normal" image="albums.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <variation key="default">
@@ -1701,6 +1705,7 @@
         <image name="Topic-50.png" width="50" height="50"/>
         <image name="Twitter-24.png" width="24" height="24"/>
         <image name="User Male3-25.png" width="25" height="25"/>
+        <image name="albums.png" width="350" height="346"/>
         <image name="camera-flash-off" width="16" height="24"/>
         <image name="camera-switch" width="29" height="22"/>
         <image name="followerPic1.png" width="142" height="144"/>
