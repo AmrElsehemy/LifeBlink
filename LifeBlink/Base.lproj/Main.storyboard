@@ -203,7 +203,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Capture" id="xb9-vC-flF"/>
+                    <tabBarItem key="tabBarItem" title="Capture" image="Screenshot-26.png" id="xb9-vC-flF"/>
                     <connections>
                         <segue destination="6NI-W5-iGE" kind="presentation" identifier="capture" id="wJ3-2i-Qbx"/>
                     </connections>
@@ -1722,7 +1722,6 @@
     </scenes>
     <resources>
         <image name="BlinkPic.png" width="878" height="572"/>
-        <image name="Facebook-24.png" width="26" height="26"/>
         <image name="Comments-26.png" width="26" height="26"/>
         <image name="Facebook-24.png" width="24" height="24"/>
         <image name="FamilyPic.png" width="140" height="138"/>
@@ -1733,9 +1732,9 @@
         <image name="Thumb Up-50.png" width="50" height="50"/>
         <image name="Topic-50.png" width="50" height="50"/>
         <image name="Twitter-24.png" width="24" height="24"/>
+        <image name="User Male3-25.png" width="25" height="25"/>
         <image name="camera-flash-off" width="16" height="24"/>
         <image name="camera-switch" width="29" height="22"/>
-        <image name="User Male3-25.png" width="25" height="25"/>
         <image name="followerPic1.png" width="142" height="144"/>
         <image name="followerPic2.png" width="140" height="142"/>
         <image name="gender-26" width="26" height="26"/>
