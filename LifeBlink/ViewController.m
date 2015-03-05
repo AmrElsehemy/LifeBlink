@@ -72,8 +72,8 @@ const static CGFloat kJVFieldFloatingLabelFontSize = 11.0f;
     UIColor *floatingLabelColor = [UIColor brownColor];
     
     JVFloatLabeledTextField *usernameField = [[JVFloatLabeledTextField alloc] initWithFrame:
-                                           CGRectMake(50+kJVFieldHMargin,
-                                                      self.topOffset,
+                                           CGRectMake(20+kJVFieldHMargin,
+                                                      self.topOffset-20,
                                                       200,
                                                       kJVFieldHeight)];
     usernameField.attributedPlaceholder =
@@ -86,8 +86,8 @@ const static CGFloat kJVFieldFloatingLabelFontSize = 11.0f;
     [self.signInView addSubview:usernameField];
     
     JVFloatLabeledTextField *passwordField = [[JVFloatLabeledTextField alloc] initWithFrame:
-                                              CGRectMake(50+kJVFieldHMargin,
-                                                         self.topOffset + kJVFieldHeight + 10,
+                                              CGRectMake(20+kJVFieldHMargin,
+                                                         self.topOffset + kJVFieldHeight -20,
                                                          200,
                                                          kJVFieldHeight)];
     passwordField.attributedPlaceholder =
@@ -97,6 +97,7 @@ const static CGFloat kJVFieldFloatingLabelFontSize = 11.0f;
     passwordField.floatingLabel.font = [UIFont boldSystemFontOfSize:kJVFieldFloatingLabelFontSize];
     passwordField.floatingLabelTextColor = floatingLabelColor;
     passwordField.clearButtonMode = UITextFieldViewModeWhileEditing;
+    passwordField.secureTextEntry = YES;
     [self.signInView addSubview:passwordField];
     
     
@@ -106,9 +107,9 @@ const static CGFloat kJVFieldFloatingLabelFontSize = 11.0f;
     UIColor *floatingLabelColor = [UIColor brownColor];
     
     JVFloatLabeledTextField *emailField = [[JVFloatLabeledTextField alloc] initWithFrame:
-                                           CGRectMake(kJVFieldHMargin,
-                                                      self.topOffset,
-                                                      self.signUpView.frame.size.width - 2 * kJVFieldHMargin,
+                                           CGRectMake(80+ kJVFieldHMargin,
+                                                      self.topOffset - 20,
+                                                      200,
                                                       kJVFieldHeight)];
     emailField.attributedPlaceholder =
     [[NSAttributedString alloc] initWithString:NSLocalizedString(@"Email", @"")
@@ -116,7 +117,7 @@ const static CGFloat kJVFieldFloatingLabelFontSize = 11.0f;
     emailField.font = [UIFont systemFontOfSize:kJVFieldFontSize];
     emailField.floatingLabel.font = [UIFont boldSystemFontOfSize:kJVFieldFloatingLabelFontSize];
     emailField.floatingLabelTextColor = floatingLabelColor;
-    emailField.clearButtonMode = UITextFieldViewModeWhileEditing;
+    emailField.clearButtonMode = UITextFieldViewModeWhileEditing;;
 
     [self.signUpView addSubview:emailField];
 }

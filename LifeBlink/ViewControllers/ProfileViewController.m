@@ -9,6 +9,7 @@
 #import "ProfileViewController.h"
 
 @interface ProfileViewController ()
+@property (weak, nonatomic) IBOutlet UIView *blinkView;
 @property (weak, nonatomic) IBOutlet UIView *familyView;
 @property (weak, nonatomic) IBOutlet UIView *followingView;
 @property (weak, nonatomic) IBOutlet UIView *followersView;
@@ -25,6 +26,26 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    self.blinkView.layer.borderColor = [[UIColor lightGrayColor] CGColor];
+    self.blinkView.layer.borderWidth = 0.4;
+    self.blinkView.layer.cornerRadius = 4;
+    self.blinkView.layer.masksToBounds = NO;
+    
+    self.familyView.layer.borderColor = [[UIColor lightGrayColor] CGColor];
+    self.familyView.layer.borderWidth = 0.4;
+    self.familyView.layer.cornerRadius = 4;
+    self.familyView.layer.masksToBounds = NO;
+    
+    self.followingView.layer.borderColor = [[UIColor lightGrayColor] CGColor];
+    self.followingView.layer.borderWidth = 0.4;
+    self.followingView.layer.cornerRadius = 4;
+    self.followingView.layer.masksToBounds = NO;
+    
+    self.followersView.layer.borderColor = [[UIColor lightGrayColor] CGColor];
+    self.followersView.layer.borderWidth = 0.4;
+    self.followersView.layer.cornerRadius = 4;
+    self.followersView.layer.masksToBounds = NO;
     
     UITapGestureRecognizer *tap1 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapFamily:)];
     [self.familyView addGestureRecognizer:tap1];
@@ -58,6 +79,8 @@
     
 }
 
-
+- (IBAction)unwindToProfileViewController:(UIStoryboardSegue *)unwind {
+    
+}
 
 @end
