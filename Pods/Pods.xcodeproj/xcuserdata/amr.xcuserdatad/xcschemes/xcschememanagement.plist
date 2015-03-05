@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-RKTabView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C279EBF2620EB070EB30EF2D</key>
+		<key>95F3F69F367AF4C30E1C5475</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D41D898C41A4E78818F9478F</key>
+		<key>E10DABDBCAF42A83B8D0A013</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FFA8978E0EBFFD7B5659894E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

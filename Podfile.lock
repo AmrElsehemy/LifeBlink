@@ -1,10 +1,13 @@
 PODS:
   - JVFloatLabeledTextField (1.0.2)
+  - RKTabView (1.0.1)
 
 DEPENDENCIES:
   - JVFloatLabeledTextField
+  - RKTabView
 
 SPEC CHECKSUMS:
   JVFloatLabeledTextField: c1ad6b4b5bd77115cfe6c71ba4c023866df5c4cf
+  RKTabView: fdea8078a5bf962777e4a6f34db5eb147050bfc1
 
 COCOAPODS: 0.35.0
