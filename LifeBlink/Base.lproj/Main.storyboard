@@ -203,11 +203,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Capture" id="xb9-vC-flF"/>
+                    <tabBarItem key="tabBarItem" title="Capture" image="Screenshot-26.png" id="xb9-vC-flF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FnQ-0K-JKG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1632" y="1360"/>
+            <point key="canvasLocation" x="1635.5" y="1408.5"/>
         </scene>
         <!--Activity-->
         <scene sceneID="fxQ-H3-7Hx">
@@ -222,11 +222,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Activity" id="lSG-ft-281"/>
+                    <tabBarItem key="tabBarItem" title="Activity" image="Comments-26.png" id="lSG-ft-281"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sd0-24-e9r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1625" y="2030"/>
+            <point key="canvasLocation" x="1635.5" y="2124.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yeH-cf-kdh">
@@ -254,7 +254,7 @@
         <scene sceneID="ppq-F2-1l6">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Z9X-KG-EUh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" id="yTb-u7-0ed"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="Home-26.png" id="yTb-u7-0ed"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ESv-YR-vMo">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -273,7 +273,7 @@
         <scene sceneID="XsD-iv-Mlb">
             <objects>
                 <tableViewController title="lifeblink" id="8ax-Ld-Wcs" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="78" sectionHeaderHeight="22" sectionFooterHeight="22" id="S6Q-Gf-Q1C">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="78" sectionHeaderHeight="22" sectionFooterHeight="22" id="S6Q-Gf-Q1C">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -447,7 +447,7 @@
                             <outlet property="delegate" destination="8ax-Ld-Wcs" id="a3n-cS-hi2"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="bXo-Qy-eOa"/>
+                    <navigationItem key="navigationItem" title="lifeblink" id="bXo-Qy-eOa"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t6x-XH-KB8" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -458,7 +458,7 @@
         <scene sceneID="rNl-mS-cyu">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5d5-rb-7QU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" id="4RL-0X-GN0"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="User Male3-25.png" id="4RL-0X-GN0"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="M5p-lM-naz">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -471,13 +471,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m86-ps-0cY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1627" y="2687"/>
+            <point key="canvasLocation" x="1635.5" y="2837.5"/>
         </scene>
-        <!--Profile View Controller-->
+        <!--Profile-->
         <scene sceneID="GYO-TW-SYW">
             <objects>
                 <tableViewController id="bIx-t2-Xb3" customClass="ProfileViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="1XV-zL-yyP">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="1XV-zL-yyP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -780,7 +780,7 @@
                             <outlet property="delegate" destination="bIx-t2-Xb3" id="VTq-Mw-OeA"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="6yY-2e-oX8"/>
+                    <navigationItem key="navigationItem" title="Profile" id="6yY-2e-oX8"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="blinkView" destination="vUz-QF-6Cx" id="FZi-Vl-MZy"/>
@@ -810,7 +810,7 @@
                 </view>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J9p-KG-CYQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2434.5" y="2723.5"/>
+            <point key="canvasLocation" x="2160.5" y="2837.5"/>
         </scene>
         <!--EDIT PROFILE-->
         <scene sceneID="wo9-oO-gvQ">
@@ -1076,7 +1076,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o3Q-tI-BPs" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="3a3-vB-YKm" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3027.5" y="3498.5"/>
+            <point key="canvasLocation" x="3119.5" y="2837.5"/>
         </scene>
         <!--Family-->
         <scene sceneID="qsd-WN-QND">
@@ -1224,7 +1224,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Opq-H9-UWi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3000.5" y="2235.5"/>
+            <point key="canvasLocation" x="3421.5" y="2235.5"/>
         </scene>
         <!--Followers-->
         <scene sceneID="xtq-9q-WaB">
@@ -1331,7 +1331,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BUp-gg-N3E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3000.5" y="2235.5"/>
+            <point key="canvasLocation" x="3814.5" y="2235.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3ok-1p-Vnb">
@@ -1353,13 +1353,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkK-xJ-hov" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2434.5" y="3462.5"/>
+            <point key="canvasLocation" x="2608.5" y="2837.5"/>
         </scene>
-        <!--Search-->
+        <!--Navigation Controller-->
         <scene sceneID="haF-mc-sWi">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="MJB-ea-L90" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Search" id="a2M-LU-UK0"/>
+                    <tabBarItem key="tabBarItem" systemItem="search" id="a2M-LU-UK0"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Vdh-SX-h1k">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -1500,13 +1500,17 @@
     </scenes>
     <resources>
         <image name="BlinkPic.png" width="878" height="572"/>
+        <image name="Comments-26.png" width="26" height="26"/>
         <image name="Facebook-24.png" width="24" height="24"/>
         <image name="FamilyPic.png" width="140" height="138"/>
+        <image name="Home-26.png" width="26" height="26"/>
         <image name="ProfilePic" width="202" height="200"/>
         <image name="ProfilePic.png" width="202" height="200"/>
+        <image name="Screenshot-26.png" width="26" height="26"/>
         <image name="Thumb Up-50.png" width="50" height="50"/>
         <image name="Topic-50.png" width="50" height="50"/>
         <image name="Twitter-24.png" width="24" height="24"/>
+        <image name="User Male3-25.png" width="25" height="25"/>
         <image name="followerPic1.png" width="142" height="144"/>
         <image name="followerPic2.png" width="140" height="142"/>
         <image name="gender-26" width="26" height="26"/>
