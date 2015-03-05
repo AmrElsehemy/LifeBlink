@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68B750C11AA88D5700ABDAC6 /* SearchFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B750C01AA88D5700ABDAC6 /* SearchFlowLayout.m */; };
 		68F048F91AA8648700A0C4F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F048F81AA8648700A0C4F0 /* Images.xcassets */; };
 		68F048FC1AA8668300A0C4F0 /* EditProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F048FB1AA8668300A0C4F0 /* EditProfileTableViewController.m */; };
 		68F048FF1AA8777C00A0C4F0 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F048FE1AA8777C00A0C4F0 /* CameraViewController.m */; };
@@ -14,6 +15,7 @@
 		68F049081AA878B100A0C4F0 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F049041AA878B100A0C4F0 /* UIImage+Resize.m */; };
 		68F049091AA878B100A0C4F0 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F049061AA878B100A0C4F0 /* ViewUtils.m */; };
 		68F0490C1AA87B5B00A0C4F0 /* CameraTapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F0490B1AA87B5B00A0C4F0 /* CameraTapViewController.m */; };
+		68F0490F1AA8842C00A0C4F0 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F0490E1AA8842C00A0C4F0 /* SearchViewController.m */; };
 		C43A89B710FB9F8105232C39 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 104487D252A7C9F14CE7183B /* libPods.a */; };
 		C51CD6BF1AA7ABFB006893B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C51CD6BE1AA7ABFB006893B2 /* main.m */; };
 		C51CD6C21AA7ABFB006893B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C51CD6C11AA7ABFB006893B2 /* AppDelegate.m */; };
@@ -26,6 +28,8 @@
 
 /* Begin PBXFileReference section */
 		104487D252A7C9F14CE7183B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B750BF1AA88D5700ABDAC6 /* SearchFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchFlowLayout.h; sourceTree = "<group>"; };
+		68B750C01AA88D5700ABDAC6 /* SearchFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchFlowLayout.m; sourceTree = "<group>"; };
 		68F048F81AA8648700A0C4F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		68F048FA1AA8668300A0C4F0 /* EditProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditProfileTableViewController.h; path = ViewControllers/EditProfileTableViewController.h; sourceTree = "<group>"; };
 		68F048FB1AA8668300A0C4F0 /* EditProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditProfileTableViewController.m; path = ViewControllers/EditProfileTableViewController.m; sourceTree = "<group>"; };
@@ -39,6 +43,8 @@
 		68F049061AA878B100A0C4F0 /* ViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUtils.m; sourceTree = "<group>"; };
 		68F0490A1AA87B5B00A0C4F0 /* CameraTapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraTapViewController.h; sourceTree = "<group>"; };
 		68F0490B1AA87B5B00A0C4F0 /* CameraTapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraTapViewController.m; sourceTree = "<group>"; };
+		68F0490D1AA8842C00A0C4F0 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = ViewControllers/SearchViewController.h; sourceTree = "<group>"; };
+		68F0490E1AA8842C00A0C4F0 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = ViewControllers/SearchViewController.m; sourceTree = "<group>"; };
 		85E67337E8A86191C5BF2590 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C392A93FDA5E6A4EC5F63CD6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C51CD6B91AA7ABFB006893B2 /* LifeBlink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeBlink.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,6 +167,10 @@
 		C51CD6FE1AA86259006893B2 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				68F0490D1AA8842C00A0C4F0 /* SearchViewController.h */,
+				68F0490E1AA8842C00A0C4F0 /* SearchViewController.m */,
+				68B750BF1AA88D5700ABDAC6 /* SearchFlowLayout.h */,
+				68B750C01AA88D5700ABDAC6 /* SearchFlowLayout.m */,
 			);
 			name = Search;
 			sourceTree = "<group>";
@@ -281,6 +291,8 @@
 				C51CD6EB1AA83FB6006893B2 /* ProfileViewController.m in Sources */,
 				68F049071AA878B100A0C4F0 /* UIImage+Crop.m in Sources */,
 				68F048FF1AA8777C00A0C4F0 /* CameraViewController.m in Sources */,
+				68F0490F1AA8842C00A0C4F0 /* SearchViewController.m in Sources */,
+				68B750C11AA88D5700ABDAC6 /* SearchFlowLayout.m in Sources */,
 				C51CD6BF1AA7ABFB006893B2 /* main.m in Sources */,
 				68F048FC1AA8668300A0C4F0 /* EditProfileTableViewController.m in Sources */,
 			);
