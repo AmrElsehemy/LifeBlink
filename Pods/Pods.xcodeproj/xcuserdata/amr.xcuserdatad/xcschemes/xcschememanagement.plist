@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-LLSimpleCamera.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C279EBF2620EB070EB30EF2D</key>
+		<key>655802E823189665BCFB3B05</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D41D898C41A4E78818F9478F</key>
+		<key>6904D2315EF9A12B95A6C3AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7BCC691C487C804B4F57B403</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -6,33 +6,33 @@
 	<dict>
 		<key>Pods-JVFloatLabeledTextField.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>Pods-LLSimpleCamera.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>016B3FBD0EE4436E21AE2935</key>
+		<key>655802E823189665BCFB3B05</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>062E3F7ECFDA0ABA72DD3B98</key>
+		<key>6904D2315EF9A12B95A6C3AB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>96739561E8354B9DAEE218F6</key>
+		<key>7BCC691C487C804B4F57B403</key>
 		<dict>
 			<key>primary</key>
 			<true/>
