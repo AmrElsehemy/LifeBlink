@@ -54,16 +54,19 @@
             if (self.scrollDirection == UICollectionViewScrollDirectionVertical) {
                 CGFloat headerHeight = CGRectGetHeight(layoutAttributes.frame);
                 CGPoint origin = layoutAttributes.frame.origin;
-                origin.y = MIN(
-                               MAX(contentOffset.y, (CGRectGetMinY(firstCellAttrs.frame) - headerHeight)),
-                               (CGRectGetMaxY(lastCellAttrs.frame) - headerHeight)
-                               );
-                
-                layoutAttributes.zIndex = 1024;
+                origin.y = contentOffset.y + self.collectionView.contentInset.top + self.sectionInset.top;
+//                MIN(
+//                               MAX(contentOffset.y, (CGRectGetMinY(firstCellAttrs.frame) - headerHeight)),
+//                               (CGRectGetMaxY(lastCellAttrs.frame) - headerHeight)
+//                               );
+//                
+                layoutAttributes.zIndex = MAXFLOAT;
                 layoutAttributes.frame = (CGRect){
                     .origin = origin,
                     .size = layoutAttributes.frame.size
                 };
+                
+                NSLog(@"header: %@", layoutAttributes);
             } else {
                 CGFloat headerWidth = CGRectGetWidth(layoutAttributes.frame);
                 CGPoint origin = layoutAttributes.frame.origin;
@@ -80,6 +83,9 @@
             }
         
     }
+        else {
+            layoutAttributes.zIndex = 1;
+        }
     }
     
     return answer;

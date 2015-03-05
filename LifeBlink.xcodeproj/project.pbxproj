@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		68B750C11AA88D5700ABDAC6 /* SearchFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B750C01AA88D5700ABDAC6 /* SearchFlowLayout.m */; };
+		68B750C31AA893FF00ABDAC6 /* search-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B750C21AA893FF00ABDAC6 /* search-32.png */; };
 		68F048F91AA8648700A0C4F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F048F81AA8648700A0C4F0 /* Images.xcassets */; };
 		68F048FC1AA8668300A0C4F0 /* EditProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F048FB1AA8668300A0C4F0 /* EditProfileTableViewController.m */; };
 		68F048FF1AA8777C00A0C4F0 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F048FE1AA8777C00A0C4F0 /* CameraViewController.m */; };
@@ -43,6 +44,7 @@
 		104487D252A7C9F14CE7183B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B750BF1AA88D5700ABDAC6 /* SearchFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchFlowLayout.h; sourceTree = "<group>"; };
 		68B750C01AA88D5700ABDAC6 /* SearchFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchFlowLayout.m; sourceTree = "<group>"; };
+		68B750C21AA893FF00ABDAC6 /* search-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search-32.png"; sourceTree = "<group>"; };
 		68F048F81AA8648700A0C4F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		68F048FA1AA8668300A0C4F0 /* EditProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditProfileTableViewController.h; path = ViewControllers/EditProfileTableViewController.h; sourceTree = "<group>"; };
 		68F048FB1AA8668300A0C4F0 /* EditProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditProfileTableViewController.m; path = ViewControllers/EditProfileTableViewController.m; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			children = (
 				68F049001AA878B100A0C4F0 /* Utilities */,
 				C51CD7091AA87E96006893B2 /* Facebook-24.png */,
+				68B750C21AA893FF00ABDAC6 /* search-32.png */,
 				C51CD70A1AA87E96006893B2 /* Twitter-24.png */,
 				C51CD70B1AA87E96006893B2 /* Thumb Up-50.png */,
 				C51CD70C1AA87E96006893B2 /* Topic-50.png */,
@@ -276,6 +279,7 @@
 			files = (
 				C51CD6E71AA7D198006893B2 /* PodFile in Resources */,
 				C51CD71B1AA885A9006893B2 /* Comments-26.png in Resources */,
+				68B750C31AA893FF00ABDAC6 /* search-32.png in Resources */,
 				C51CD7041AA87E84006893B2 /* followerPic2.png in Resources */,
 				C51CD70F1AA87E96006893B2 /* Thumb Up-50.png in Resources */,
 				C51CD7071AA87E84006893B2 /* BlinkPic.png in Resources */,
@@ -453,7 +457,7 @@
 			baseConfigurationReference = 85E67337E8A86191C5BF2590 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Amr Elsehemy (FACB6U4DCH)";
+				CODE_SIGN_IDENTITY = "";
 				INFOPLIST_FILE = LifeBlink/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -466,7 +470,7 @@
 			baseConfigurationReference = C392A93FDA5E6A4EC5F63CD6 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Amr Elsehemy (FACB6U4DCH)";
+				CODE_SIGN_IDENTITY = "";
 				INFOPLIST_FILE = LifeBlink/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

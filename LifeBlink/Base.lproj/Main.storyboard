@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D72i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -1553,11 +1553,11 @@
             </objects>
             <point key="canvasLocation" x="2608.5" y="2837.5"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Search-->
         <scene sceneID="haF-mc-sWi">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MJB-ea-L90" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Search" id="a2M-LU-UK0"/>
+                    <tabBarItem key="tabBarItem" title="Search" image="search-32.png" id="a2M-LU-UK0"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Vdh-SX-h1k">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -1576,7 +1576,6 @@
         <!--Search View Controller-->
         <scene sceneID="CGs-LY-380">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PVW-Un-pqd" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <collectionViewController id="T8n-F5-SIl" customClass="SearchViewController" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="yhu-bR-kPx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -1617,6 +1616,7 @@
                                     <rect key="frame" x="8" y="0.0" width="179" height="50"/>
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                     <state key="normal" title="Blinks">
+                                        <color key="titleColor" red="0.054901960780000002" green="0.28627450980000002" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
                                 </button>
@@ -1624,6 +1624,7 @@
                                     <rect key="frame" x="188" y="0.0" width="179" height="50"/>
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                     <state key="normal" title="People">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
                                 </button>
@@ -1635,6 +1636,7 @@
                                     </constraints>
                                 </view>
                             </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstItem="voy-Lw-eep" firstAttribute="leading" secondItem="2Cy-LT-RWp" secondAttribute="trailing" id="AwR-JW-5tL"/>
                                 <constraint firstItem="2Cy-LT-RWp" firstAttribute="top" secondItem="A9k-XS-8xX" secondAttribute="top" id="c0d-v2-3bK"/>
@@ -1656,6 +1658,7 @@
                     </collectionView>
                     <navigationItem key="navigationItem" id="dTd-aF-FbT"/>
                 </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PVW-Un-pqd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2020.5" y="749.5"/>
         </scene>
@@ -1708,6 +1711,7 @@
         <image name="marker-24" width="24" height="24"/>
         <image name="message-24" width="24" height="24"/>
         <image name="multiply-25" width="25" height="25"/>
+        <image name="search-32.png" width="32" height="32"/>
         <image name="touchscreen_smartphone-26" width="26" height="26"/>
         <image name="user_male-25" width="25" height="25"/>
         <image name="video_call-24" width="24" height="24"/>
