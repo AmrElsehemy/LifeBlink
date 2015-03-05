@@ -29,18 +29,31 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - Table view data source
+- (IBAction)editImage:(id)sender {
+    UIAlertController *sheet = [UIAlertController alertControllerWithTitle:@"Change Profile Picture" message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+    
+    UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
+    }];
+    [sheet addAction:cancel];
+    
+    UIAlertAction *remove = [UIAlertAction actionWithTitle:@"Remove Current Photo" style:UIAlertActionStyleDestructive handler:nil];
+    [sheet addAction:remove];
+    
+    UIAlertAction *fb = [UIAlertAction actionWithTitle:@"Import from Facebook" style:UIAlertActionStyleDefault handler:nil];
+    [sheet addAction:fb];
+    
+    UIAlertAction *tw = [UIAlertAction actionWithTitle:@"Import from Twitter" style:UIAlertActionStyleDefault handler:nil];
+    [sheet addAction:tw];
+    
+    UIAlertAction *take = [UIAlertAction actionWithTitle:@"Take Photo" style:UIAlertActionStyleDefault handler:nil];
+    [sheet addAction:take];
+    
+    UIAlertAction *album = [UIAlertAction actionWithTitle:@"Choose from Library" style:UIAlertActionStyleDefault handler:nil];
+    [sheet addAction:album];
+    
+    
+    [self presentViewController:sheet animated:YES completion:nil];
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 0;
 }
 
 /*

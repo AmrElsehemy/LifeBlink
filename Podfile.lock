@@ -1,10 +1,13 @@
 PODS:
   - JVFloatLabeledTextField (1.0.2)
+  - LLSimpleCamera (2.1.1)
 
 DEPENDENCIES:
   - JVFloatLabeledTextField
+  - LLSimpleCamera
 
 SPEC CHECKSUMS:
   JVFloatLabeledTextField: c1ad6b4b5bd77115cfe6c71ba4c023866df5c4cf
+  LLSimpleCamera: 6674422a27f2e7b5dc452cf404eb48a581ff8099
 
 COCOAPODS: 0.35.0
