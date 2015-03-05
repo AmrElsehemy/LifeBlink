@@ -1333,7 +1333,6 @@
             </objects>
             <point key="canvasLocation" x="3000.5" y="2235.5"/>
         </scene>
-<<<<<<< HEAD
         <!--Navigation Controller-->
         <scene sceneID="3ok-1p-Vnb">
             <objects>
@@ -1355,7 +1354,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkK-xJ-hov" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2434.5" y="3462.5"/>
-=======
+            </scene>
         <!--Search-->
         <scene sceneID="haF-mc-sWi">
             <objects>
@@ -1497,7 +1496,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6H2-Xf-j53" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2296.5" y="769.5"/>
->>>>>>> Amr
         </scene>
     </scenes>
     <resources>
