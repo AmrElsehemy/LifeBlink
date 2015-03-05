@@ -17,6 +17,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k01-I4-PGj" userLabel="SignUpView">
+                                <rect key="frame" x="0.0" y="274" width="375" height="393"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDQ-7b-1DG">
+                                        <rect key="frame" x="91" y="65" width="220" height="32"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <state key="normal" title="Log In with Facebook" image="Facebook-24.png">
+                                            <color key="titleColor" red="0.035294117649999998" green="0.28627450980000002" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Dh-R9-xa2">
+                                        <rect key="frame" x="92" y="88" width="219" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <state key="normal" title="Log In with Twitter" image="Twitter-24.png">
+                                            <color key="titleColor" red="0.035294117649999998" green="0.28627450980000002" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sjv-od-do2" userLabel="Line">
+                                        <rect key="frame" x="16" y="46" width="343" height="1"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="bII-um-aEC"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="sjv-od-do2" secondAttribute="trailing" constant="16" id="9NU-0m-xMb"/>
+                                    <constraint firstItem="sjv-od-do2" firstAttribute="leading" secondItem="k01-I4-PGj" secondAttribute="leading" constant="16" id="LkS-iQ-0fL"/>
+                                    <constraint firstItem="sjv-od-do2" firstAttribute="top" secondItem="k01-I4-PGj" secondAttribute="top" constant="46" id="xIL-Jt-fNh"/>
+                                </constraints>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLC-fT-tNI">
                                 <rect key="frame" x="91" y="235" width="66" height="32"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
@@ -39,25 +73,6 @@
                                     <action selector="signIn:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="SmT-Xe-kwp"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k01-I4-PGj" userLabel="SignUpView">
-                                <rect key="frame" x="0.0" y="274" width="375" height="393"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MTM-kF-btU" userLabel="SignInView">
-                                <rect key="frame" x="0.0" y="274" width="375" height="393"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQ7-Ve-OhI">
-                                        <rect key="frame" x="309" y="57" width="46" height="30"/>
-                                        <state key="normal" title="sign in">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="Wq2-Px-CPv" kind="show" id="Zim-H4-dSX"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ehD-V2-fNo">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="227"/>
                                 <subviews>
@@ -88,6 +103,60 @@
                                     <constraint firstItem="2oM-v0-O3b" firstAttribute="leading" secondItem="ehD-V2-fNo" secondAttribute="leading" id="hd1-mg-VeV"/>
                                     <constraint firstItem="Xdx-DG-SHX" firstAttribute="top" secondItem="ehD-V2-fNo" secondAttribute="top" constant="118" id="qt0-4r-58I"/>
                                     <constraint firstAttribute="trailing" secondItem="2oM-v0-O3b" secondAttribute="trailing" id="yxA-U1-QfR"/>
+                                </constraints>
+                            </view>
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MTM-kF-btU" userLabel="SignInView">
+                                <rect key="frame" x="0.0" y="274" width="375" height="393"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b7O-x5-wdG" userLabel="Line">
+                                        <rect key="frame" x="16" y="44" width="343" height="1"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="YOD-Lx-fIX"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wO3-50-lxT" userLabel="Line">
+                                        <rect key="frame" x="16" y="87" width="343" height="1"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="6Ps-vz-Ij7"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQ7-Ve-OhI">
+                                        <rect key="frame" x="315" y="99" width="48" height="30"/>
+                                        <color key="backgroundColor" red="0.0" green="0.36470588235294116" blue="0.10406940946990302" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                        <state key="normal" title="Sign In">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Wq2-Px-CPv" kind="show" id="Zim-H4-dSX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jxK-3o-t5P">
+                                        <rect key="frame" x="77" y="142" width="220" height="32"/>
+                                        <state key="normal" title="Log In with Facebook" image="Facebook-24.png">
+                                            <color key="titleColor" red="0.035294117649999998" green="0.28627450980000002" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b9u-dW-gdW">
+                                        <rect key="frame" x="77" y="164" width="219" height="38"/>
+                                        <state key="normal" title="Log In with Twitter" image="Twitter-24.png">
+                                            <color key="titleColor" red="0.035294117649999998" green="0.28627450980000002" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="b7O-x5-wdG" firstAttribute="top" secondItem="MTM-kF-btU" secondAttribute="top" constant="44" id="1bx-gS-vZ9"/>
+                                    <constraint firstItem="wO3-50-lxT" firstAttribute="leading" secondItem="MTM-kF-btU" secondAttribute="leading" constant="16" id="G7K-5y-0ZB"/>
+                                    <constraint firstAttribute="trailing" secondItem="wO3-50-lxT" secondAttribute="trailing" constant="16" id="KDf-3a-Cna"/>
+                                    <constraint firstAttribute="trailing" secondItem="b7O-x5-wdG" secondAttribute="trailing" constant="16" id="b9S-Ai-A1s"/>
+                                    <constraint firstItem="wO3-50-lxT" firstAttribute="top" secondItem="b7O-x5-wdG" secondAttribute="bottom" constant="42" id="j8p-aR-rOD"/>
+                                    <constraint firstItem="b7O-x5-wdG" firstAttribute="leading" secondItem="MTM-kF-btU" secondAttribute="leading" constant="16" id="xO1-ZJ-7ZV"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -730,6 +799,7 @@
                     <navigationItem key="navigationItem" id="6yY-2e-oX8"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="blinkView" destination="vUz-QF-6Cx" id="FZi-Vl-MZy"/>
                         <outlet property="familyView" destination="lib-ah-iqZ" id="G3Z-vR-YtU"/>
                         <outlet property="followersView" destination="Uth-wO-5jg" id="cgM-9d-q3S"/>
                         <outlet property="followingView" destination="seA-1c-JfT" id="xA6-au-G7n"/>
@@ -1016,10 +1086,12 @@
     </scenes>
     <resources>
         <image name="BlinkPic.png" width="878" height="572"/>
+        <image name="Facebook-24.png" width="24" height="24"/>
         <image name="FamilyPic.png" width="140" height="138"/>
         <image name="ProfilePic.png" width="202" height="200"/>
         <image name="Thumb Up-50.png" width="50" height="50"/>
         <image name="Topic-50.png" width="50" height="50"/>
+        <image name="Twitter-24.png" width="24" height="24"/>
         <image name="followerPic1.png" width="142" height="144"/>
         <image name="followerPic2.png" width="140" height="142"/>
     </resources>
