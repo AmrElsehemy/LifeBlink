@@ -91,6 +91,7 @@
 		C51CD6BB1AA7ABFB006893B2 /* LifeBlink */ = {
 			isa = PBXGroup;
 			children = (
+				C51CD6FE1AA86259006893B2 /* Search */,
 				C51CD6E81AA83F8A006893B2 /* Profile */,
 				C51CD6C01AA7ABFB006893B2 /* AppDelegate.h */,
 				C51CD6C11AA7ABFB006893B2 /* AppDelegate.m */,
@@ -122,6 +123,13 @@
 				68F048FB1AA8668300A0C4F0 /* EditProfileTableViewController.m */,
 			);
 			name = Profile;
+			sourceTree = "<group>";
+		};
+		C51CD6FE1AA86259006893B2 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

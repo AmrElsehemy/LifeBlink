@@ -69,8 +69,8 @@
 
 - (void)tapFollowing:(id)sender {
     
-    UIViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"FollowingViewController"];
-    [self.navigationController pushViewController:vc animated:YES];
+//    UIViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"FollowingViewController"];
+//    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)tapFollowers:(id)sender {
